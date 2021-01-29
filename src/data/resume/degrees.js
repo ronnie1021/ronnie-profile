@@ -12,5 +12,4 @@ const degrees = [
     year: 2014,
   },
 ];
-
 export default degrees;

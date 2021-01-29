@@ -7,7 +7,7 @@ import facts from '../data/home/facts';
 
 const Index = () => (
   <Main
-    description={"Welcome to Yuxuan Wan's personal website. Data Scientist at DiDi labs in Bay Area "
+    description={"Welcome to Yuxuan Wan's personal website. Data Scientist at DiDi labs in Bay Area, "
     + 'CMU Alumni.'}
   >
     <article className="post" id="index">
@@ -15,15 +15,14 @@ const Index = () => (
         <div className="title">
           <h2 data-testid="heading"><Link to="/">About this site</Link></h2>
           <p>
-            Thanks to <a href='https://github.com/mldangelo/personal-site'>MICHAEL D'ANGELO</a> for Contributing such a great react application
+            Thanks to <a href="https://github.com/mldangelo/personal-site">MICHAEL D&apos;ANGELO</a> for Contributing such a great react application
             template written with modern Javascript.
           </p>
         </div>
       </header>
       <div>
-        <FunFact data={facts}/>
+        <FunFact data={facts} />
       </div>
-      
     </article>
   </Main>
 );

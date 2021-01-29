@@ -20,7 +20,6 @@ const Main = (props) => (
       <div id="main">
         {props.children}
       </div>
-      <p>{props.fullPage}</p>
       {props.fullPage ? null : <SideBar />}
     </div>
   </>
@@ -40,7 +39,7 @@ Main.defaultProps = {
   children: null,
   fullPage: false,
   title: null,
-  description: "Yuxuan(Ronnie) Wan's Profile",
+  description: "Yuxuan Wan's personal website.",
 };
 
 export default Main;

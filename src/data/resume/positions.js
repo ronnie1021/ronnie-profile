@@ -17,7 +17,7 @@ const positions = [
     points: [
       'Built the Chatbot system that automated responses on the E-commerce customer service channel with 20% accuracy increase over previous system.',
       'Designed and created a powerful internal-use product mining system to analyze online product reviews from major US E-commerce websites.',
-      'Created an automated, fully customizable deep learning training framework for faster model training, model iteration, evaluation and deployment.'
+      'Created an automated, fully customizable deep learning training framework for faster model training, model iteration, evaluation and deployment.',
     ],
   },
   {
@@ -27,7 +27,8 @@ const positions = [
     daterange: 'June 2016 - July 2018',
     points: [
       'Designed and built recommendation engine for providing customized product recommendations for each customer on the company’s official website.',
-      'Developed Churn model that helps company to minimize risk of losing valuable customers (80% of revenue comes from those customers) with 93% accuracy.',    ],
+      'Developed Churn model that helps company to minimize risk of losing valuable customers (80% of revenue comes from those customers) with 93% accuracy.',
+    ],
   },
 ];
 

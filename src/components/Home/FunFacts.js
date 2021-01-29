@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Fact from './Fact';
 
-
 const FunFacts = ({ data }) => (
   <div className="funfacts">
     <div className="link-to" id="funfacts" />
